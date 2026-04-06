@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Large local recordings (regenerate with slice_tv.py)
+tv_recording.m4a
+tv_recording.wav
+
+# Training data (often local-only, very large)
+data/
