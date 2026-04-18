@@ -1,0 +1,29 @@
+{
+  "name": "hey_magis_v2",
+  "sample_rate": 16000,
+  "clip_samples": 16000,
+  "feature": {
+    "type": "log_mel_spectrogram",
+    "frame_length": 400,
+    "frame_step": 160,
+    "fft_length": 512,
+    "num_mel_bins": 40,
+    "lower_hz": 20.0,
+    "upper_hz": 7600.0,
+    "normalization": "per_utterance_mean_std"
+  },
+  "labels": {
+    "0": "not_wakeword",
+    "1": "wakeword"
+  },
+  "recommended_thresholds": {
+    "start": 0.5,
+    "notes": "Tune threshold using on-device false positives/negatives."
+  },
+  "train": {
+    "pos_dir": "data\\positive_trimmed_1p2_A",
+    "neg_dir": "data\\negative",
+    "val_split": 0.15,
+    "batch_size": 64
+  }
+}

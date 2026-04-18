@@ -1,0 +1,18 @@
+{
+  "model_name": "Hey Magis Wake Word",
+  "version": "1.0.0",
+  "created": "2026-01-13T15:36:43.397493",
+  "wake_phrase": "hey magis",
+  "sample_rate": 16000,
+  "duration_seconds": 2.0,
+  "mfcc_features": 40,
+  "threshold": 0.7,
+  "input_shape": [
+    201,
+    40
+  ],
+  "training_samples": {
+    "positive": "209 real recordings with augmentation",
+    "negative": "61 similar phrases + Speech Commands dataset"
+  }
+}

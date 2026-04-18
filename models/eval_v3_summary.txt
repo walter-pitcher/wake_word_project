@@ -1,0 +1,77 @@
+======================================================================
+WAKE WORD TFLITE EVAL SUMMARY
+======================================================================
+Model: C:\Users\miker\wake_word_project\models\hey_magis_v3_model.tflite
+Positives scored: 147 (failed: 0)
+Negatives scored: 10000 (failed: 0)
+Negatives available total: 105896
+Negatives sampled: 10000
+FAR cap used for selection: 0.001
+
+Score distribution:
+  Pos score min/mean/p95/max: 0.0000 / 0.8772 / 1.0000 / 1.0000
+  Neg score min/mean/p99/max: 0.0000 / 0.9610 / 1.0000 / 1.0000
+
+Recommended threshold (best F1 under FAR cap; tie-breaks lower FRR, then higher threshold):
+  threshold=0.99
+  FAR=93.770%  FRR=24.490%
+  precision=0.0117  recall=0.7551  F1=0.0230
+  TP=111 FN=36 FP=9377 TN=623
+
+Top scoring negatives (inspect these first; these are your most dangerous false triggers):
+  1.000000  C:\Users\miker\wake_word_project\data\negative\stop\ff2b842e_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\seven\afd53389_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\up\bbf38549_nohash_4.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\nine\fa57ab3b_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\six\6bf5baf3_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\six\ec989d6d_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\no\9785931e_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\three\9f93e408_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\left\92521ccc_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\no\d21fd169_nohash_4.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\up\44715c1c_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\four\8fe67225_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\yes\8353fea1_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\tree\c0e0f834_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\nine\f2898d06_nohash_4.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\eight\24a3e589_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\on\0397ecda_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\three\a1cff772_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\off\16db1582_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\dog\64a80906_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\right\bfdb9801_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\nine\62605293_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\off\3c4aa5ef_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\off\3b852f6f_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\zero\cb62dbf1_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\zero\c0e3ff37_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\left\b00dff7e_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\two\234d6a48_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\nine\9151f184_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\stop\3389305e_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\one\36de13e1_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\go\f8ba7c0e_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\follow\87070229_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\zero\a16013b7_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\left\c6ee87a7_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\two\acfd5b5e_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\up\0d6d7360_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\stop\8eb4a1bf_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\one\1993db46_nohash_1.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\stop\856eb138_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\zero\de89e2ca_nohash_3.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\three\bbd0bbd0_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\seven\6a497f80_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\three\08ab8082_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\six\a6f2fd71_nohash_4.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\yes\e49428d9_nohash_2.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\cat\0137b3f4_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\off\61a9f72a_nohash_0.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\three\1496195a_nohash_4.wav
+  1.000000  C:\Users\miker\wake_word_project\data\negative\two\8c7c9168_nohash_0.wav
+
+Files written:
+  C:\Users\miker\wake_word_project\models\eval_v3_scores_pos.csv
+  C:\Users\miker\wake_word_project\models\eval_v3_scores_neg.csv
+  C:\Users\miker\wake_word_project\models\eval_v3_thresholds.csv
+  C:\Users\miker\wake_word_project\models\eval_v3_summary.txt
