@@ -1,0 +1,17 @@
+# MagisAI Wake Word v6 — Python dependencies
+# Install:  pip install -r new/requirements.txt
+#
+# NOTE on TensorFlow + Windows GPU:
+#   TF 2.10 is the last version with *native* Windows GPU support.
+#   TF 2.11+ still works on Windows CPU, or via WSL2 for GPU.
+#   Adjust the version below to match your setup.
+
+tensorflow>=2.10,<2.22
+numpy>=1.23
+scipy>=1.9
+librosa>=0.10
+soundfile>=0.12
+scikit-learn>=1.1
+matplotlib>=3.6
+tqdm>=4.64
+pyttsx3>=2.90

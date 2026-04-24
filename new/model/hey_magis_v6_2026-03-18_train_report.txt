@@ -1,0 +1,67 @@
+========================================================================
+HEY MAGIS TRAINING REPORT  v6  (hey_magis_v6_2026-03-18)
+========================================================================
+AUC-PR  = 0.9991
+AUC-ROC = 0.9998
+val_pos = 1020   val_neg = 3060
+
+THRESHOLD SWEEP
+------------------------------------------------------------------------
+ thresh     TP    TN    FP    FN   recall  specif    prec     FPR
+  0.05    1020  2721   339     0  1.0000  0.8892  0.7506  0.1108
+  0.10    1020  2952   108     0  1.0000  0.9647  0.9043  0.0353
+  0.15    1020  3002    58     0  1.0000  0.9810  0.9462  0.0190
+  0.20    1020  3025    35     0  1.0000  0.9886  0.9668  0.0114
+  0.25    1020  3036    24     0  1.0000  0.9922  0.9770  0.0078
+  0.30    1020  3042    18     0  1.0000  0.9941  0.9827  0.0059
+  0.35    1017  3047    13     3  0.9971  0.9958  0.9874  0.0042
+  0.40    1013  3047    13     7  0.9931  0.9958  0.9873  0.0042
+  0.45    1008  3052     8    12  0.9882  0.9974  0.9921  0.0026
+  0.50     995  3053     7    25  0.9755  0.9977  0.9930  0.0023
+  0.55     987  3057     3    33  0.9676  0.9990  0.9970  0.0010
+  0.60     968  3058     2    52  0.9490  0.9993  0.9979  0.0007
+  0.65     948  3059     1    72  0.9294  0.9997  0.9989  0.0003
+  0.70     910  3059     1   110  0.8922  0.9997  0.9989  0.0003
+  0.75     851  3059     1   169  0.8343  0.9997  0.9988  0.0003
+  0.80     799  3059     1   221  0.7833  0.9997  0.9988  0.0003
+  0.85     700  3059     1   320  0.6863  0.9997  0.9986  0.0003
+  0.90     547  3059     1   473  0.5363  0.9997  0.9982  0.0003
+  0.92     462  3060     0   558  0.4529  1.0000  1.0000  0.0000
+  0.95     240  3060     0   780  0.2353  1.0000  1.0000  0.0000
+  0.97      67  3060     0   953  0.0657  1.0000  1.0000  0.0000
+  0.99       7  3060     0  1013  0.0069  1.0000  1.0000  0.0000
+
+TRAINING HISTORY (per-epoch)
+------------------------------------------------------------------------
+epoch=  1  val_auc_pr=0.9420  val_auc_roc=0.9762  best_auc_pr=0.0000
+epoch=  2  val_auc_pr=0.9823  val_auc_roc=0.9950  best_auc_pr=0.9420
+epoch=  3  val_auc_pr=0.9912  val_auc_roc=0.9976  best_auc_pr=0.9823
+epoch=  4  val_auc_pr=0.9942  val_auc_roc=0.9985  best_auc_pr=0.9912
+epoch=  5  val_auc_pr=0.9943  val_auc_roc=0.9986  best_auc_pr=0.9942
+epoch=  6  val_auc_pr=0.9939  val_auc_roc=0.9983  best_auc_pr=0.9943
+epoch=  7  val_auc_pr=0.9940  val_auc_roc=0.9985  best_auc_pr=0.9943
+epoch=  8  val_auc_pr=0.9963  val_auc_roc=0.9991  best_auc_pr=0.9943
+epoch=  9  val_auc_pr=0.9969  val_auc_roc=0.9991  best_auc_pr=0.9963
+epoch= 10  val_auc_pr=0.9927  val_auc_roc=0.9979  best_auc_pr=0.9969
+epoch= 11  val_auc_pr=0.9959  val_auc_roc=0.9991  best_auc_pr=0.9969
+epoch= 12  val_auc_pr=0.9961  val_auc_roc=0.9990  best_auc_pr=0.9969
+epoch= 13  val_auc_pr=0.9981  val_auc_roc=0.9995  best_auc_pr=0.9969
+epoch= 14  val_auc_pr=0.9974  val_auc_roc=0.9994  best_auc_pr=0.9981
+epoch= 15  val_auc_pr=0.9987  val_auc_roc=0.9997  best_auc_pr=0.9981
+epoch= 16  val_auc_pr=0.9979  val_auc_roc=0.9995  best_auc_pr=0.9987
+epoch= 17  val_auc_pr=0.9980  val_auc_roc=0.9995  best_auc_pr=0.9987
+epoch= 18  val_auc_pr=0.9989  val_auc_roc=0.9997  best_auc_pr=0.9987
+epoch= 19  val_auc_pr=0.9985  val_auc_roc=0.9996  best_auc_pr=0.9989
+epoch= 20  val_auc_pr=0.9974  val_auc_roc=0.9993  best_auc_pr=0.9989
+epoch= 21  val_auc_pr=0.9988  val_auc_roc=0.9997  best_auc_pr=0.9989
+epoch= 22  val_auc_pr=0.9991  val_auc_roc=0.9998  best_auc_pr=0.9989
+epoch= 23  val_auc_pr=0.9987  val_auc_roc=0.9996  best_auc_pr=0.9991
+epoch= 24  val_auc_pr=0.9985  val_auc_roc=0.9996  best_auc_pr=0.9991
+epoch= 25  val_auc_pr=0.9990  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 26  val_auc_pr=0.9988  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 27  val_auc_pr=0.9990  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 28  val_auc_pr=0.9991  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 29  val_auc_pr=0.9989  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 30  val_auc_pr=0.9989  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 31  val_auc_pr=0.9989  val_auc_roc=0.9997  best_auc_pr=0.9991
+epoch= 32  val_auc_pr=0.9987  val_auc_roc=0.9996  best_auc_pr=0.9991
