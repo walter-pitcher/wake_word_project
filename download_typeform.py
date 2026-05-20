@@ -12,7 +12,7 @@ import time
 import json
 
 class TypeformAudioDownloader:
-    def __init__(self, form_id="NESfh1yD", access_token="tfp_HYEHbTNmuLo5HHc2DN4nWqbLrgtQD8YHgYeSjqyn3hun_fYB1Ps4PEnAK"):
+    def __init__(self, form_id="", access_token=""):
         """
         Initialize the Typeform downloader
         
